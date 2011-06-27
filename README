@@ -4,9 +4,9 @@ In order to use this you must first have a developer username + password provide
 
 To use this class you just need to instantiate it, passing in your credentials and calling the methods available
 
-***************************************************
+**************************************************
 Example
-***************************************************
+**************************************************
 
 include('Police API/cPoliceAPI.php');
 $policeAPI = new cPoliceAPI(YOUR_USERNAME, YOUR_PASSWORD);
