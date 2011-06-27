@@ -1,1 +1,7 @@
-This should allow you to interface with the Police.UK API using PHP
+This library allows you to interface with the Police.UK crime statistics API found @http://policeapi2.rkh.co.uk/api/docs/
+
+include('Police API/cPoliceAPI.php');
+
+$policeAPI = new cPoliceAPI(YOUR_USERNAME, YOUR_PASSWORD);
+
+print_r($polcieAPI->getCrimeCategories());
